@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!------------------------------------- Primary Meta Tags ------------------------------------->
-    <title>Sky Now</title>
-    <meta name="title" content="sky-now" />
+    <title>WeatherApp</title>
+    <meta name="title" content="weather-app" />
     <meta name="description" content="about current weather around globe" />
 
     <!----------------------------------------- Web_Icon ------------------------------------------>
@@ -35,8 +35,7 @@
     <!------------------------------------------- HEADER ------------------------------------------>
     <header class="header">
       <div class="container">
-        <a href="#" class="logo"><img src="./public/images/logo-dark.png" width="360" height="50" alt="logo" />
-        </a>
+        <!-- <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon" width="50" height="50"> -->
 
         <div class="search-view" data-search-view>
           <div class="search-wrapper">
@@ -85,13 +84,12 @@
           <!------------------------------------- FOOTER ------------------------------------------>
           <footer class="footer">
             <p class="body-3">
-              Copyright 2024 Amit Singhal. All Rights Reserved.
+              Copyright <span id="year"></span> Vatsal Patel. All Rights Reserved.
             </p>
-            <p class="body-3">
-              Powered By
-              <a href="https://openweathermap.org/api" title="Free OpenWeather API" target="_blank" rel="noopener"><img
-                  src="./public/images/openweather.png" width="150" height="30" loading="lazy" alt="OpenWeather" /></a>
-            </p>
+            
+            <script>
+              document.getElementById("year").textContent = new Date().getFullYear();
+            </script>
           </footer>
         </div>
 
