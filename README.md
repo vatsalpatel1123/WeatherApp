@@ -20,7 +20,7 @@ To run this project locally, follow these steps:
 
    ```sh
    git clone https://github.com/vatsalpatel1123/WeatherApp.git
-   cd Sky-Now
+   cd WeatherApp
    ```
 
 2. **Open index.html in your web browser**
