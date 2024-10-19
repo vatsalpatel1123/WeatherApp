@@ -1,6 +1,9 @@
 
 # WeatherApp
 
+### Live Preview
+[Live Website Link](https://vatsalpatel1123.github.io/WeatherApp/)
+
 <details>
      <summary><h2>Table of Contents</h2></summary>
 
